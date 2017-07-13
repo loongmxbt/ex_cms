@@ -37,5 +37,19 @@ config :ex_admin,
     ExCMS.ExAdmin.Dashboard,
   ]
 
+# %% Coherence Configuration %%   Don't remove this line
+config :coherence,
+  user_schema: ExCMS.Coherence.User,
+  repo: ExCMS.Repo,
+  module: ExCMS,
+  router: ExCMS.Web.Router,
+  messages_backend: ExCMS.Coherence.Messages,
+  logged_out_url: "/",
+  email_from_name: "Your Name",
+  email_from_email: "yourname@example.com",
+  opts: [:authenticatable, :recoverable, :lockable, :trackable, :unlockable_with_token, :confirmable, :registerable]
 
-
+config :coherence, ExCMS.Coherence.Mailer,
+  adapter: Swoosh.Adapters.Sendgrid,
+  api_key: "your api key here"
+# %% End Coherence Configuration %%

@@ -1,11 +1,7 @@
-# Script for populating the database. You can run it as:
-#
-#     mix run priv/repo/seeds.exs
-#
-# Inside the script, you can read and write to any of your
-# repositories directly:
-#
-#     ExCMS.Repo.insert!(%ExCMS.SomeSchema{})
-#
-# We recommend using the bang functions (`insert!`, `update!`
-# and so on) as they will fail if something goes wrong.
+alias ExCMS.{Repo, Coherence.User}
+
+Repo.delete_all User
+
+User.changeset(%User{}, %{name: "admin", email: "admin@163.com", password: "admin123", password_confirmation: "admin123"})
+|> Repo.insert!
+|> Coherence.ControllerHelpers.confirm!

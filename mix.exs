@@ -17,7 +17,7 @@ defmodule ExCMS.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {ExCMS.Application, []},
-     extra_applications: [:logger, :runtime_tools]]
+     extra_applications: [:logger, :runtime_tools, :coherence]]
   end
 
   # Specifies which paths to compile per environment.
@@ -28,7 +28,7 @@ defmodule ExCMS.Mixfile do
   #
   # Type `mix help deps` for examples and options.
   defp deps do
-    [{:phoenix, "~> 1.3.0-rc"},
+    [{:phoenix, "~> 1.3.0-rc", override: true},
      {:phoenix_pubsub, "~> 1.0"},
      {:phoenix_ecto, "~> 3.2"},
      {:postgrex, ">= 0.0.0"},
@@ -36,7 +36,8 @@ defmodule ExCMS.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:ex_admin, github: "smpallen99/ex_admin", branch: "phx-1.3"},]
+     {:ex_admin, github: "smpallen99/ex_admin", branch: "phx-1.3"},
+     {:coherence, "~> 0.4"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
