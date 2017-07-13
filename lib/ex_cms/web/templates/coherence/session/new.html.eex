@@ -1,4 +1,4 @@
-<br \>
+<h3><%= dgettext "coherence", "Login Account" %></h3>
 
 <%= form_for @conn, session_path(@conn, :create), [as: :session], fn f  -> %>
 

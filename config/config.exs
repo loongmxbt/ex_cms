@@ -18,6 +18,10 @@ config :ex_cms, ExCMS.Web.Endpoint,
   pubsub: [name: ExCMS.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
+# Locale i18n Gettext
+config :ex_cms, ExCMS.Web.Gettext,
+  default_locale: "zh_CN"
+
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",

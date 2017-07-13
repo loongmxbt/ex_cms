@@ -1,0 +1,403 @@
+## `msgid`s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove `msgid`s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use `mix gettext.extract --merge` or `mix gettext.merge`
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: zh_CN\n"
+
+#: lib/ex_cms/web/emails/coherence/user_email.ex:27
+msgid "%{site_name} - Confirm your new account"
+msgstr "%{site_name} - 确认新账户"
+
+#: lib/ex_cms/web/emails/coherence/user_email.ex:36
+msgid "%{site_name} - Invitation to create a new account"
+msgstr "%{site_name} - 邀请创建新账户"
+
+#: lib/ex_cms/web/emails/coherence/user_email.ex:18
+msgid "%{site_name} - Reset password instructions"
+msgstr "%{site_name} - 重置密码指令"
+
+#: lib/ex_cms/web/emails/coherence/user_email.ex:45
+msgid "%{site_name} - Unlock Instructions"
+msgstr "账户已经确认"
+
+#: lib/ex_cms/web/coherence_messages.ex:24
+msgid "Account already confirmed."
+msgstr "%{site_name} - 解锁账户指令"
+
+#: lib/ex_cms/web/coherence_messages.ex:25
+msgid "Account is not locked."
+msgstr "账户并未锁定"
+
+#: lib/ex_cms/web/coherence_messages.ex:26
+msgid "Account updated successfully."
+msgstr "账户更新成功"
+
+#: lib/ex_cms/web/coherence_messages.ex:29
+msgid "Already logged in."
+msgstr "已经登录。"
+
+#: lib/ex_cms/web/templates/coherence/registration/show.html.eex:25
+msgid "Are you sure?"
+msgstr "你确定吗？"
+
+#: lib/ex_cms/web/coherence_messages.ex:31
+msgid "Can't find that token"
+msgstr "无法找到令牌"
+
+#: lib/ex_cms/web/templates/coherence/confirmation/new.html.eex:15
+#: lib/ex_cms/web/templates/coherence/password/edit.html.eex:23
+#: lib/ex_cms/web/templates/coherence/password/new.html.eex:15
+#: lib/ex_cms/web/templates/coherence/registration/form.html.eex:51
+#: lib/ex_cms/web/templates/coherence/session/new.html.eex:28
+#: lib/ex_cms/web/templates/coherence/unlock/new.html.eex:19
+msgid "Cancel"
+msgstr "取消"
+
+#: lib/ex_cms/web/templates/coherence/email/password.html.eex:7
+msgid "Change my password"
+msgstr "修改密码"
+
+#: lib/ex_cms/web/templates/coherence/email/confirmation.html.eex:7
+msgid "Confirm my Account"
+msgstr "确认账户"
+
+#: lib/ex_cms/web/coherence_messages.ex:32
+msgid "Confirmation email sent."
+msgstr "确认邮件已发送"
+
+#: lib/ex_cms/web/coherence_messages.ex:33
+msgid "Confirmation token expired."
+msgstr "确认令牌已过期"
+
+#: lib/ex_cms/web/coherence_messages.ex:34
+msgid "Could not find that email address"
+msgstr "无法找到Email地址"
+
+#: lib/ex_cms/web/templates/coherence/password/edit.html.eex:3
+msgid "Create a New Password"
+msgstr "创建新密码"
+
+#: lib/ex_cms/web/templates/coherence/email/invitation.html.eex:7
+msgid "Create my Account"
+msgstr "创建我的账户"
+
+#: lib/ex_cms/web/templates/coherence/registration/show.html.eex:22
+msgid "Delete"
+msgstr "删除"
+
+#: lib/ex_cms/web/templates/coherence/registration/show.html.eex:21
+msgid "Edit"
+msgstr "编辑"
+
+#: lib/ex_cms/web/templates/coherence/registration/edit.html.eex:1
+msgid "Edit Account"
+msgstr "编辑账户"
+
+#: lib/ex_cms/web/templates/coherence/confirmation/new.html.eex:8
+#: lib/ex_cms/web/templates/coherence/registration/form.html.eex:24
+#: lib/ex_cms/web/templates/coherence/unlock/new.html.eex:6
+msgid "Email"
+msgstr "Email"
+
+#: lib/ex_cms/web/templates/coherence/registration/show.html.eex:15
+msgid "Email:"
+msgstr "Email："
+
+#: lib/ex_cms/web/coherence_messages.ex:35
+#: lib/ex_cms/web/views/coherence/coherence_view_helpers.ex:12
+msgid "Forgot your password?"
+msgstr "忘记密码？"
+
+#: lib/ex_cms/web/coherence_messages.ex:36
+msgid "HTTP Authentication Required"
+msgstr "需要HTTP认证"
+
+#: lib/ex_cms/web/templates/coherence/email/confirmation.html.eex:2
+#: lib/ex_cms/web/templates/coherence/email/invitation.html.eex:2
+#: lib/ex_cms/web/templates/coherence/email/password.html.eex:2
+#: lib/ex_cms/web/templates/coherence/email/unlock.html.eex:2
+msgid "Hello %{name}!"
+msgstr "你好，%{name}！"
+
+#: lib/ex_cms/web/templates/coherence/email/password.html.eex:10
+msgid "If you didn't request this, please ignore this email."
+msgstr "如果这不是你主动请求的，请忽略这封邮件。"
+
+#: lib/ex_cms/web/coherence_messages.ex:37
+msgid "Incorrect %{login_field} or password."
+msgstr "错误的%{login_field}或密码"
+
+#: lib/ex_cms/web/coherence_messages.ex:73
+msgid "Invalid %{user_token} error: %{error}"
+msgstr "错误的%{user_token} 提示：%{error}"
+
+#: lib/ex_cms/web/coherence_messages.ex:39
+msgid "Invalid Invitation. Please contact the site administrator."
+msgstr "无效的邀请。请联系网站管理员。"
+
+#: lib/ex_cms/web/coherence_messages.ex:40
+msgid "Invalid Request."
+msgstr "无效的请求"
+
+#: lib/ex_cms/web/coherence_messages.ex:41
+msgid "Invalid confirmation token."
+msgstr "无效的确认令牌"
+
+#: lib/ex_cms/web/coherence_messages.ex:42
+msgid "Invalid email or password."
+msgstr "无效的Email或密码"
+
+#: lib/ex_cms/web/coherence_messages.ex:43
+msgid "Invalid invitation token."
+msgstr "无效的邀请令牌"
+
+#: lib/ex_cms/web/coherence_messages.ex:44
+msgid "Invalid reset token."
+msgstr "无效的重置令牌"
+
+#: lib/ex_cms/web/coherence_messages.ex:45
+msgid "Invalid unlock token."
+msgstr "无效的解锁令牌"
+
+#: lib/ex_cms/web/coherence_messages.ex:46
+msgid "Invitation already sent."
+msgstr "邀请已经发送。"
+
+#: lib/ex_cms/web/coherence_messages.ex:47
+msgid "Invitation sent."
+msgstr "邀请发送。"
+
+#: lib/ex_cms/web/coherence_messages.ex:48
+#: lib/ex_cms/web/views/coherence/coherence_view_helpers.ex:15
+msgid "Invite Someone"
+msgstr ""
+
+#: lib/ex_cms/web/coherence_messages.ex:77
+msgid "Mailer configuration required!"
+msgstr "邀请某人"
+
+#: lib/ex_cms/web/coherence_messages.ex:49
+msgid "Maximum Login attempts exceeded. Your account has been locked."
+msgstr "超过最大登录尝试次数。您的帐号被锁定。"
+
+#: lib/ex_cms/web/templates/coherence/registration/form.html.eex:10
+msgid "Name"
+msgstr "用户名"
+
+#: lib/ex_cms/web/templates/coherence/registration/show.html.eex:4
+msgid "Name:"
+msgstr "用户名："
+
+#: lib/ex_cms/web/coherence_messages.ex:50
+#: lib/ex_cms/web/views/coherence/coherence_view_helpers.ex:14
+msgid "Need An Account?"
+msgstr "需要创建账户？"
+
+#: lib/ex_cms/web/templates/coherence/registration/form.html.eex:5
+msgid "Oops, something went wrong! Please check the errors below."
+msgstr "不好意思，出错了！请查看如下错误提示。"
+
+#: lib/ex_cms/web/templates/coherence/password/edit.html.eex:10
+#: lib/ex_cms/web/templates/coherence/registration/form.html.eex:38
+#: lib/ex_cms/web/templates/coherence/session/new.html.eex:13
+#: lib/ex_cms/web/templates/coherence/unlock/new.html.eex:12
+msgid "Password"
+msgstr "密码"
+
+#: lib/ex_cms/web/templates/coherence/password/edit.html.eex:16
+#: lib/ex_cms/web/templates/coherence/registration/form.html.eex:44
+msgid "Password Confirmation"
+msgstr "密码确认"
+
+#: lib/ex_cms/web/coherence_messages.ex:52
+msgid "Password reset token expired."
+msgstr "密码重置令牌已过期。"
+
+#: lib/ex_cms/web/coherence_messages.ex:53
+msgid "Password updated successfully."
+msgstr "密码更新成功。"
+
+#: lib/ex_cms/web/coherence_messages.ex:54
+msgid "Problem confirming user account. Please contact the system administrator."
+msgstr "确认用户账户出错。请联系系统管理员。"
+
+#: lib/ex_cms/web/templates/coherence/registration/new.html.eex:4
+msgid "Register"
+msgstr "注册"
+
+#: lib/ex_cms/web/templates/coherence/registration/new.html.eex:1
+msgid "Register Account"
+msgstr "注册账户"
+
+#: lib/ex_cms/web/coherence_messages.ex:55
+msgid "Registration created successfully."
+msgstr "注册成功！"
+
+#: lib/ex_cms/web/templates/coherence/session/new.html.eex:21
+msgid "Remember Me?"
+msgstr "记住我？"
+
+#: lib/ex_cms/web/templates/coherence/confirmation/new.html.eex:3
+msgid "Resend Confirmation Instructions"
+msgstr "重新发送确认指令"
+
+#: lib/ex_cms/web/templates/coherence/confirmation/new.html.eex:14
+msgid "Resend Email"
+msgstr "重新发送邮件"
+
+#: lib/ex_cms/web/coherence_messages.ex:57
+#: lib/ex_cms/web/views/coherence/coherence_view_helpers.ex:16
+msgid "Resend confirmation email"
+msgstr "重新发送确认邮件"
+
+#: lib/ex_cms/web/templates/coherence/password/new.html.eex:14
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: lib/ex_cms/web/coherence_messages.ex:58
+msgid "Reset email sent. Check your email for a reset link."
+msgstr "重置邮件已发送。查看邮件中的重置链接。"
+
+#: lib/ex_cms/web/coherence_messages.ex:59
+msgid "Restricted Area"
+msgstr "限定区域"
+
+#: lib/ex_cms/web/templates/coherence/unlock/new.html.eex:18
+msgid "Send Instructions"
+msgstr "发送指令"
+
+#: lib/ex_cms/web/coherence_messages.ex:60
+#: lib/ex_cms/web/views/coherence/coherence_view_helpers.ex:13
+msgid "Send an unlock email"
+msgstr "发送解锁邮件"
+
+#: lib/ex_cms/web/templates/coherence/password/new.html.eex:3
+msgid "Send reset password link"
+msgstr "发送重置密码链接"
+
+#: lib/ex_cms/web/templates/coherence/registration/show.html.eex:1
+msgid "Show account"
+msgstr "展示账户"
+
+#: lib/ex_cms/web/coherence_messages.ex:61
+#: lib/ex_cms/web/templates/coherence/session/new.html.eex:27
+#: lib/ex_cms/web/views/coherence/coherence_view_helpers.ex:17
+msgid "Sign In"
+msgstr "登录"
+
+#: lib/ex_cms/web/coherence_messages.ex:62
+#: lib/ex_cms/web/views/coherence/coherence_view_helpers.ex:18
+msgid "Sign Out"
+msgstr "登出"
+
+#: lib/ex_cms/web/coherence_messages.ex:63
+msgid "Signed in successfully."
+msgstr "登录成功。"
+
+#: lib/ex_cms/web/templates/coherence/email/password.html.eex:4
+msgid "Someone has requested a link to change your password, and you can do this through the link below."
+msgstr ""
+
+#: lib/ex_cms/web/templates/coherence/email/confirmation.html.eex:9
+#: lib/ex_cms/web/templates/coherence/email/invitation.html.eex:9
+#: lib/ex_cms/web/templates/coherence/email/unlock.html.eex:9
+msgid "Thank you!"
+msgstr "谢谢！"
+
+#: lib/ex_cms/web/coherence_messages.ex:64
+msgid "Too many failed login attempts. Account has been locked."
+msgstr ""
+
+#: lib/ex_cms/web/coherence_messages.ex:65
+msgid "Unauthorized IP Address"
+msgstr ""
+
+#: lib/ex_cms/web/coherence_messages.ex:66
+msgid "Unlock Instructions sent."
+msgstr ""
+
+#: lib/ex_cms/web/templates/coherence/email/unlock.html.eex:7
+msgid "Unlock my Account"
+msgstr ""
+
+#: lib/ex_cms/web/templates/coherence/registration/edit.html.eex:4
+msgid "Update"
+msgstr "更新"
+
+#: lib/ex_cms/web/templates/coherence/password/edit.html.eex:22
+msgid "Update Password"
+msgstr "更新密码"
+
+#: lib/ex_cms/web/coherence_messages.ex:67
+msgid "User account confirmed successfully."
+msgstr ""
+
+#: lib/ex_cms/web/coherence_messages.ex:68
+msgid "User already has an account!"
+msgstr ""
+
+#: lib/ex_cms/web/coherence_messages.ex:75
+msgid "You are using an invalid security token for this site! This security\nviolation has been logged.\n"
+msgstr ""
+
+#: lib/ex_cms/web/templates/coherence/email/invitation.html.eex:4
+msgid "You have been invited to create an Account. Use the link below to create an account."
+msgstr ""
+
+#: lib/ex_cms/web/coherence_messages.ex:69
+msgid "You must confirm your account before you can login."
+msgstr "你需要在登录之前确认账户。"
+
+#: lib/ex_cms/web/templates/coherence/email/unlock.html.eex:4
+msgid "You requested unlock instructions for your locked account. Please click the link below to unlock your account."
+msgstr ""
+
+#: lib/ex_cms/web/coherence_messages.ex:70
+msgid "Your account has been unlocked"
+msgstr "你的账户已锁定"
+
+#: lib/ex_cms/web/coherence_messages.ex:71
+msgid "Your account is not locked."
+msgstr "你的账户未锁定。"
+
+#: lib/ex_cms/web/templates/coherence/email/confirmation.html.eex:4
+msgid "Your new account is almost ready. Click the link below to confirm you new account."
+msgstr "你的新账户快创建好了。点击下面链接确认新账户。"
+
+#: lib/ex_cms/web/templates/coherence/email/password.html.eex:13
+msgid "Your password won't change until you access the link above and create a new one."
+msgstr "你的密码不会改变，直到你进入上方链接创建新密码。"
+
+#: lib/ex_cms/web/coherence_messages.ex:27
+msgid "already confirmed"
+msgstr "已经确认"
+
+#: lib/ex_cms/web/coherence_messages.ex:28
+msgid "already locked"
+msgstr "已经锁住"
+
+#: lib/ex_cms/web/coherence_messages.ex:30
+msgid "can't be blank"
+msgstr "不能为空"
+
+#: lib/ex_cms/web/coherence_messages.ex:38
+msgid "invalid current password"
+msgstr "当前密码无效"
+
+#: lib/ex_cms/web/coherence_messages.ex:51
+msgid "not locked"
+msgstr "未锁定"
+
+#: lib/ex_cms/web/coherence_messages.ex:56
+msgid "required"
+msgstr "必须"
+
+#: lib/ex_cms/web/templates/coherence/session/new.html.eex:1
+msgid "Login Account"
+msgstr "用户登录"
