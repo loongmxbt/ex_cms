@@ -1,5 +1,11 @@
-<h3><%= dgettext "coherence", "Register Account" %></h3>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><%= dgettext "coherence", "Register Account" %></h3>
+  </div>
+  <div class="panel-body">
+    <%= render "form.html", changeset: @changeset, label: dgettext("coherence", "Register"), required: [required: ""], action: registration_path(@conn, :create) %>
+  </div>
+  <div class="panel-footer">注册之前请您一定要阅读<a href="">ExCMS服务条款和版权声明</a></div>
+</div>
 
-<%= render "form.html", changeset: @changeset,
-                        label: dgettext("coherence", "Register"), required: [required: ""],
-                        action: registration_path(@conn, :create) %>
+

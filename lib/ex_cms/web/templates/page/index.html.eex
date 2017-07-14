@@ -1,36 +1,85 @@
-<div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+<main class="bs-docs-masthead" id="content" tabindex="-1">
+  <div class="container">
+    <h1>从高质量的视频中学习<br>最前沿的Web开发技术</h1>
+    <p class="lead">Elixir / Phoenix / React / React Native</p>
+    <p class="lead">
+      <a href="/registrations/new" class="btn btn-outline-inverse btn-lg">立即加入 ExCasts</a>
+    </p>
+    <p class="version">当前版本： v1.0.7 | 视频更新于：2017-05-22</p>
+  </div>
+</main>
+
+<div class="bs-docs-featurette">
+  <div class="container">
+    <h2 class="bs-docs-featurette-title">面向未来的学习</h2>
+    <p class="lead">投资在学习上的时间和金钱总有一天会回赠给你自己 ！</p>
+
+    <hr class="half-rule">
+
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="https://elixir-lang.org/images/logo/logo.png" alt="Sass and Less support" class="img-responsive">
+        <h3>Elixir</h3>
+        <p>Elixir是基于Erlang VM的高性能语言</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="https://raw.githubusercontent.com/phoenixframework/phoenix/master/priv/static/phoenix.png" alt="Responsive across devices" class="img-responsive">
+        <h3>Phoenix</h3>
+        <p>Phoenix是次世代的Web开发框架</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="https://blog.jscrambler.com/content/images/2016/12/react_native_banner-min.png" alt="Components" class="img-responsive">
+        <h3>React</h3>
+        <p>React是Facebook推出的前端框架</p>
+      </div>
+    </div>
+
+    <hr class="half-rule">
+
+    <p class="lead">Bootstrap 是完全开源的。它的代码托管、开发、维护都依赖 GitHub 平台。</p>
+    <a href="https://github.com/twbs/bootstrap" class="btn btn-outline btn-lg">查看 GitHub 项目主页</a>
+  </div>
 </div>
 
-<div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="http://phoenixframework.org/docs/overview">Guides</a>
-      </li>
-      <li>
-        <a href="https://hexdocs.pm/phoenix">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-    </ul>
-  </div>
 
-  <div class="col-lg-6">
-    <h4>Help</h4>
-    <ul>
-      <li>
-        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
-      </li>
-      <li>
-        <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
-      </li>
-    </ul>
+<div class="bs-docs-featurette">
+  <div class="container">
+    <h2 class="bs-docs-featurette-title">课程展示</h2>
+    <p class="lead">全球数以百万计的网站都是基于 Bootstrap 构建的。你可以先参观一下我们提供的<a href="../getting-started/#examples">实例精选</a>或者看一看我们粉丝的网站吧。</p>
+
+    <hr class="half-rule">
+
+    <div class="row bs-docs-featured-sites">
+    
+      <div class="col-xs-6 col-sm-3">
+        <a href="http://www.golaravel.com/" target="_blank" title="Laravel中文网" onclick="_hmt.push(['_trackEvent', 'doc-home-youzhan-img', 'click', 'Laravel中文网'])">
+          <img src="https://static.bootcss.com/expo/img/3/61/34091ac7072297a889fe986b0238e.png" alt="Laravel中文网" class="img-responsive">
+        </a>
+      </div>
+    
+      <div class="col-xs-6 col-sm-3">
+        <a href="http://www.ghostchina.com/" target="_blank" title="Ghost中国" onclick="_hmt.push(['_trackEvent', 'doc-home-youzhan-img', 'click', 'Ghost中国'])">
+          <img src="https://static.bootcss.com/expo/img/7/b5/f9c2f01fad1f23574156e0577a06c.jpg" alt="Ghost中国" class="img-responsive">
+        </a>
+      </div>
+    
+      <div class="col-xs-6 col-sm-3">
+        <a href="http://www.gulpjs.com.cn/" target="_blank" title="Gulp中文网" onclick="_hmt.push(['_trackEvent', 'doc-home-youzhan-img', 'click', 'Gulp中文网'])">
+          <img src="https://static.bootcss.com/expo/img/9/77/9aa20712a7dba02b00e73db495950.png" alt="Gulp中文网" class="img-responsive">
+        </a>
+      </div>
+    
+      <div class="col-xs-6 col-sm-3">
+        <a href="http://www.gruntjs.net/" target="_blank" title="Gurnt中文网" onclick="_hmt.push(['_trackEvent', 'doc-home-youzhan-img', 'click', 'Gurnt中文网'])">
+          <img src="https://static.bootcss.com/expo/img/6/56/aecc20901cc436b5cd10911302e0b.png" alt="Gurnt中文网" class="img-responsive">
+        </a>
+      </div>
+    
+    </div>
+
+    <hr class="half-rule">
+
+    <p class="lead">我们在“优站精选”里展示了许多精美的 Bootstrap 网站。</p>
+    <a href="http://www.youzhan.org" class="btn btn-outline btn-lg">逛一逛“优站精选”</a>
   </div>
 </div>

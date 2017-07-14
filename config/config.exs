@@ -8,7 +8,8 @@ use Mix.Config
 # General application configuration
 config :ex_cms,
   namespace: ExCMS,
-  ecto_repos: [ExCMS.Repo]
+  ecto_repos: [ExCMS.Repo],
+  site_name: "ExCMS"
 
 # Configures the endpoint
 config :ex_cms, ExCMS.Web.Endpoint,
@@ -49,6 +50,8 @@ config :coherence,
   router: ExCMS.Web.Router,
   messages_backend: ExCMS.Coherence.Messages,
   logged_out_url: "/",
+  site_name: "ExCMS", # The site name used for email
+  title: "ExCMS User Center", # The title used for coh app layout
   email_from_name: "Your Name",
   email_from_email: "yourname@example.com",
   opts: [:authenticatable, :recoverable, :lockable, :trackable, :unlockable_with_token, :confirmable, :registerable]
